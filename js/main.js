@@ -1,6 +1,9 @@
 // Listen for form submit
-document.getElementById('myForm').addEventListener('submit', saveBookmark);
+document.getElementById('bookmarkForm').addEventListener('submit', saveBookmark);
 
-function saveBookmark() {
-    console.log('It Works');
+// Save Bookmark
+function saveBookmark(e) {
+    
+
+    e.preventDefault();
 }
